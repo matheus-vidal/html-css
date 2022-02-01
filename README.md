@@ -1,8 +1,11 @@
 # html-css
- Curso de HTML5 e CSS3
+ Curso de HTML5 e CSS3 do Curso em Video
 
-do Curso em Video
-LINKS: 
+
+LINKS:
+
 Site: https://www.cursoemvideo.com/
+
 YouTube: https://www.youtube.com/CursoemV%C3%ADdeo
+
 GitHub: https://github.com/gustavoguanabara
