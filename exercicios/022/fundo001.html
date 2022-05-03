@@ -4,35 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fundo</title>
+    <title>imagem de fundo</title>
     <style>
-        body {
-            background-image: url('imagens/wallpaper002.jpg');
+        * {
             font-family: Arial, Helvetica, sans-serif;
-            color: red;
-            padding: 3%;
-            line-height: 1.6;
         }
 
-        h1 {
-            margin-bottom: 0px;
+        body {
+            margin: 0px;
         }
 
-        ol {
-            margin-top: 10px;
+        header {
+            background-image: url('imagens/pattern004.png');
+            padding-top: 20px;
+            height: 100px;
         }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        main {
+            columns: 2;
+            text-align: justify;
+            padding: 20px;
+        }
+
+        main > #chato {
+            padding-top: 14px;
+        }
+
     </style>
 </head>
 <body>
+    <header>
+        <h1>tem uma imagem no fundo</h1>
+    </header>
+
     <main>
-        <h1>Relatório geral do dia: </h1>
-        <ol>
-            <li>agora são 17:02 e está 26° graus</li>
-            <li>o dia tá agradavel e bonito</li>
-            <li>é um sabado</li>
-            <li>este é um teste de imagens de fundo </li>
-            <li>nasceu uma espinha no meu queixo que parece um chifre só que ao contrário</li>
-        </ol>
-    </main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sint id quos commodi vel nobis eos ratione nulla, dolores expedita, illo non facere sapiente quae eius ex dicta? Magnam, beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolore quam repudiandae perferendis temporibus libero cupiditate amet quaerat, expedita fuga, unde magni exercitationem minus, asperiores ipsa? At recusandae aspernatur perferendis.</p>
+
+        <p id="chato">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sint id quos commodi vel nobis eos ratione nulla, dolores expedita, illo non facere sapiente quae eius ex dicta? Magnam, beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolore quam repudiandae perferendis temporibus libero cupiditate amet quaerat, expedita fuga, unde magni exercitationem minus, asperiores ipsa? At recusandae aspernatur perferendis.</p>
+    </main>    
 </body>
 </html>
