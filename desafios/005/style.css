@@ -58,7 +58,8 @@ article{
 article > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.397);
-    width: 45.3%;
+    max-width: 50%;
+    min-width: 40%;
 }
 
 #joaninha {
