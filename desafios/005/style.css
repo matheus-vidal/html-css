@@ -24,12 +24,48 @@ header > p {
     margin: 0px;
 }
 
-p > a {
+header a {
     font-weight: bold;
     color: white;
     text-decoration: none;
 }
 
-p > a:hover {
+header a:hover {
     text-decoration: underline;
+}
+
+main {
+    padding: 20px 20px 20px 30px;
+}
+
+main p {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+main > p {
+    padding-bottom: 50px;
+}
+
+article{
+    margin: 0px -20px 0px -30px;
+    padding: 10px 20px 10px 30px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 45.3%;
+}
+
+#joaninha {
+    background-position: right center;
+    background-image: url("imagens/background001.jpg");    
+}
+
+#carta {
+    background-image: url("imagens/background002.jpg");
 }
