@@ -51,9 +51,6 @@ main > p {
 article{
     margin: 0px -20px 0px -30px;
     padding: 10px 20px 10px 30px;
-    background-color: black;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 article > p {
@@ -63,10 +60,11 @@ article > p {
 }
 
 #joaninha {
-    background-position: right center;
-    background-image: url("imagens/background001.jpg");    
+    background: url("imagens/background001.jpg") black center center fixed; 
+    background-size: cover;
 }
 
 #carta {
-    background-image: url("imagens/background002.jpg");
+    background: url("imagens/background002.jpg") black center center fixed; 
+    background-size: cover;
 }
