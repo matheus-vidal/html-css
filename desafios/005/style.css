@@ -24,13 +24,13 @@ header > p {
     margin: 0px;
 }
 
-header a {
+a {
     font-weight: bold;
     color: white;
     text-decoration: none;
 }
 
-header a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -51,12 +51,14 @@ main > p {
 article{
     margin: 0px -20px 0px -30px;
     padding: 10px 20px 10px 30px;
+    box-shadow: 1px 1px 1px black;
 }
 
 article > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.397);
-    width: 42vw;
+    display: inline-block;
+    text-shadow: 1px 1px 1px black;
 }
 
 #joaninha {
@@ -67,4 +69,17 @@ article > p {
 #carta {
     background: url("imagens/background002.jpg") black center center fixed; 
     background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p {
+    margin: 0px;
 }
