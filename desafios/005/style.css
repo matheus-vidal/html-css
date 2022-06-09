@@ -70,16 +70,3 @@ article > p {
     background: url("imagens/background002.jpg") black center center fixed; 
     background-size: cover;
 }
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 7px;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer > p {
-    margin: 0px;
-}
