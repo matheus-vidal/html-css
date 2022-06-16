@@ -7,31 +7,58 @@
     <title>Tabelas grandes</title>
 
     <style>
-
         body {
             font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            height: 100vh;
+            margin: 0px;
+            background-image: linear-gradient(to right, black, gray, lightgray, gray, black);
         }
 
         table {
             width: 900px;
             border-collapse:collapse;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(217, 241, 250);
+        }
+
+        caption {
+            padding: 10px 10px 5px 10px;
+            font-variant: small-caps;
+            font-size: 1.3em;
         }
 
         thead, tfoot {
-            background-color: lightgray;
+            background-color: rgb(112, 190, 216);
         }
-
+    
         th, td {
             border: 1px black solid;
             padding: 10px;
         }
 
+        tbody td:hover {
+            background-color: rgb(134, 193, 212);
+            font-weight: bold;
+            text-align: center;
+        }
+
+        tbody td.mud:hover {
+            background-color: rgb(223, 240, 247);
+            font-weight: bold;
+            text-align: center;
+        }
+
         td.num {
             text-align: right;
+            width: 180px;
         }
 
         td.mud {
-            text-align: center;
+            text-align: right;
             color: green;
         }
 
@@ -40,12 +67,14 @@
 </head>
 <body>
     <table>
+        <caption>População por Unidade federativa</caption>
+
         <thead>
             <tr>
-                <th>Unidade federativa</th>
-                <th>População (2010)</th>
-                <th>População (2021)</th>
-                <th>Mudança</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População (2010)</th>
+                <th scope="col">População (2021)</th>
+                <th scope="col">Mudança</th>
             </tr>
         </thead>
 
@@ -124,7 +153,7 @@
 
         <tfoot>
             <tr>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <td class="num"><strong>133 675 103</strong></td>
                 <td class="num"><strong>160 297 712</strong></td>
                 <td class="mud"><strong>+52.17%</strong></td>
