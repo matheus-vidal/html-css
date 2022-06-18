@@ -12,7 +12,6 @@
             position: relative;
             height: 100vh;
             margin: 0px;
-            background-image: linear-gradient(to right, black, gray, lightgray, gray, black);
         }
 
         table {
@@ -22,7 +21,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: rgb(217, 241, 250);
+            background-color: white;
+            font-weight: bold;
         }
 
         caption {
@@ -32,24 +32,21 @@
         }
 
         thead, tfoot {
-            background-color: rgb(112, 190, 216);
+            background-color: rgb(71, 71, 71);
+            color: rgba(255, 255, 255, 0.89)
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(199, 199, 199);
+        }
+
+        tbody > tr:hover {
+            font-size: 18px;
         }
     
         th, td {
             border: 1px black solid;
-            padding: 10px;
-        }
-
-        tbody td:hover {
-            background-color: rgb(134, 193, 212);
-            font-weight: bold;
-            text-align: center;
-        }
-
-        tbody td.mud:hover {
-            background-color: rgb(223, 240, 247);
-            font-weight: bold;
-            text-align: center;
+            padding: 10px 20px;
         }
 
         td.num {
@@ -58,8 +55,7 @@
         }
 
         td.mud {
-            text-align: right;
-            color: green;
+            text-align: center; width: 150px;
         }
 
     </style>
