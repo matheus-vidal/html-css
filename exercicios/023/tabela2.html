@@ -10,19 +10,17 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             position: relative;
-            height: 100vh;
-            margin: 0px;
+            height: 100%;
+            margin: 20px;
         }
 
         table {
-            width: 900px;
+            width: 700px;
             border-collapse:collapse;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             background-color: white;
             font-weight: bold;
+            margin: auto;
+            position: relative;
         }
 
         caption {
@@ -34,6 +32,12 @@
         thead, tfoot {
             background-color: rgb(71, 71, 71);
             color: rgba(255, 255, 255, 0.89)
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(71, 71, 71);
         }
 
         tbody > tr:nth-child(odd) {
@@ -51,11 +55,11 @@
 
         td.num {
             text-align: right;
-            width: 180px;
+            width: 130px;
         }
 
         td.mud {
-            text-align: center; width: 150px;
+            text-align: center; width: 110px;
         }
 
     </style>
@@ -75,6 +79,146 @@
         </thead>
 
         <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41 262 199</td>
+                <td class="num">46 649 132</td>
+                <td class="mud">+13.05%</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+                <td class="num">21 411 923</td>
+                <td class="mud">+9.26%</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">15 989 929</td>
+                <td class="num">17 463 349</td>
+                <td class="mud">+9.21%</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 016 906</td>
+                <td class="num">14 985 284</td>
+                <td class="mud">+6.91%</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 444 526</td>
+                <td class="num">11 597 484</td>
+                <td class="mud">+11.04%</td>
+            </tr>
+            
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 693 929</td>
+                <td class="num">11 466 630</td>
+                <td class="mud">+7.23%</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">8 796 448</td>
+                <td class="num">9 674 793</td>
+                <td class="mud">+9.98%</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 452 381</td>
+                <td class="num">9 240 580</td>
+                <td class="mud">+9.32%</td>
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="num">7 581 051</td>
+                <td class="num">8 777 124</td>
+                <td class="mud">+15.78%</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">6 248 436</td>
+                <td class="num">7 338 473</td>
+                <td class="mud">+17.44%</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41 262 199</td>
+                <td class="num">46 649 132</td>
+                <td class="mud">+13.05%</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+                <td class="num">21 411 923</td>
+                <td class="mud">+9.26%</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">15 989 929</td>
+                <td class="num">17 463 349</td>
+                <td class="mud">+9.21%</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 016 906</td>
+                <td class="num">14 985 284</td>
+                <td class="mud">+6.91%</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 444 526</td>
+                <td class="num">11 597 484</td>
+                <td class="mud">+11.04%</td>
+            </tr>
+            
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 693 929</td>
+                <td class="num">11 466 630</td>
+                <td class="mud">+7.23%</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">8 796 448</td>
+                <td class="num">9 674 793</td>
+                <td class="mud">+9.98%</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 452 381</td>
+                <td class="num">9 240 580</td>
+                <td class="mud">+9.32%</td>
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="num">7 581 051</td>
+                <td class="num">8 777 124</td>
+                <td class="mud">+15.78%</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">6 248 436</td>
+                <td class="num">7 338 473</td>
+                <td class="mud">+17.44%</td>
+            </tr>
+
             <tr>
                 <td>São Paulo</td>
                 <td class="num">41 262 199</td>
