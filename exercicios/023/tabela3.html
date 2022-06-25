@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        caption {
+            font-variant: small-caps;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        td, th {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Sexo</th>
+                <th scope="col">Nome</th>   
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Feminino</th>
+                <td>Cláudia</td>
+                <td>Tempo</td>
+                <td>Oxigênio</td>
+                <td>Maligno</td>
+            </tr>
+
+            <tr>
+                <td>Julia</td>
+                <td>A Maldição</td>
+                <td>Voyagers</td>
+                <td>Oxigênio</td>
+            </tr>
+
+            <tr>
+                <td>carol</td>
+                <td>Mimadinhos</td>
+                <td>Encanto</td>
+                <td>Luca</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3" scope="rowgroup">Masculino</th>
+                <td>Felipe</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+
+            <tr>
+                <td>André</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+
+            <tr>
+                <td>Marcus</td>
+                <td>Star Wars 5</td>
+                <td>Toy Store</td>
+                <td>Zoran</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
