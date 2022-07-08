@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuração de Coluna</title>
+    <style>
+        body {
+            font-family: cursive;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            text-transform: capitalize;
+        }
+
+        caption {
+            font-variant: small-caps;
+        }
+
+        thead {
+            background-color: darkgray;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        th {
+            padding: 20px;
+        }
+
+        colgroup > .maior {
+            width: 140px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="maior">
+            <col style="background-color: black; color: rgb(50, 119, 119);">
+            <col class="numero">
+            <col class="numero">
+        </colgroup>
+
+        <caption>Animes Preferidos</caption>
+        <thead>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">Dragon Ball</th>
+            <th scope="col">Naruto</th>
+            <th scope="col">One Piece</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>arthur</td>
+                <td>8.2</td>
+                <td>9.5</td>
+                <td>8.3</td>
+            </tr>
+
+            <tr>
+                <td>henrique</td>
+                <td>9</td>
+                <td>10</td>
+                <td>7.3</td>
+            </tr>
+
+            <tr>
+                <td>vinicius</td>
+                <td>10</td>
+                <td>5.4</td>
+                <td>9.8</td>
+            </tr>
+
+            <tr>
+                <td>murilo</td>
+                <td>7.6</td>
+                <td>7</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>matheus</td>
+                <td>9.5</td>
+                <td>9.5</td>
+                <td>9.5</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
