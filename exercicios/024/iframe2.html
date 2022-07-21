@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+    <style>
+        body {
+            margin: 0px;
+            height: 100vh;
+            position: relative;
+        }
+
+        iframe {
+            display: block;
+            width: 700px;
+            height: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <a href="iframe1.html" target="p">wdwdwd</a>
+
+    <iframe srcdoc="<style>*{background-color: black;}</style>" name="p" frameborder="0"></iframe>
+</body>
+</html>
