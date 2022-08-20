@@ -28,12 +28,12 @@ body {
 }
 
 #celular > iframe {
-    width: 256px;
-    height: 452px;
-
+    width: 258px;
+    height: 453px;
+    
     position: absolute;
     top: 12.8%;
-    left: 7.2%;
+    left: 6.8%;
 }
 
 #bot {
