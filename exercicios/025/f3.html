@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:)</title>
+</head>
+<body>
+    <form action="gg.py" autocomplete="on">
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" name="anome" id="nome" placeholder="Digite seu nome" autocomplete="name" maxlength="40" required>
+        </p>
+
+        <p>
+            <label for="nota">Nota: </label>
+            <input type="number" name="anota" id="nota" min="0" max="10" step="0.1" placeholder="0 a 10" required>
+        </p>
+
+        <p>
+            <label for="mes">Periodo Letivo: </label>
+            <input type="month" name="ames" id="mes" value="2022-08" required>
+        </p>
+
+        <p>
+            <label for="dia">Dia da prova: </label>
+            <input type="date" name="adia" id="dia" value="2022-08-25" required>
+        </p>
+
+        <p>
+            <label for="hora">Horario da prova: </label>
+            <input type="time" name="ahora" id="hora">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
