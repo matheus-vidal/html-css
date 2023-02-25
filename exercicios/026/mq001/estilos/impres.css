@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Estilo para a impressão */
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+menu {
+    display: none;
+}

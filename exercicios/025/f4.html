@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Treino de Formulários</h1>
+    <form action="acl.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>bla, bla bla bla</legend>
+            <p>
+                <label for="nome">Digite seu Nome: </label>
+                <input type="text" name="nome" id="nome" autocomplete="name" required>
+            </p>
+            <p>
+                <label for="email">Digite seu Email: </label>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="tel">Digite seu Número: </label>
+                <input type="tel" name="tel" id="tel" autocomplete="tel" required pattern="^\(\d{2}\) \d{5}-\d{4}$" value="(00) 90000-0000">
+            </p>
+        </fieldset>
+        <br>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>

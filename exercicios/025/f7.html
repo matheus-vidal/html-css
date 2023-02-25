@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="c.php" method="get">
+        <p>
+            <label for="af">Qual seu anime preferido?: </label>
+            <select name="af" id="af">
+                <option selected>--escolha--</option>
+
+                <optgroup label="Clássicos">
+                    <option value="dgb">Dragon Ball</option>
+                    <option value="nrt">Naruto</option>
+                    <option value="op">One Piece</option>
+                </optgroup>
+
+                <optgroup label="Novos">
+                    <option value="aot">Attck on Titan</option>
+                    <option value="bnh">Boku no Hero</option>
+                    <option value="ds">Demon Slayer</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="df">Qual seu doce preferido?: </label>
+            <input type="text" name="df" id="df" list="opt">
+            <datalist id="opt">
+                <option>Chocolate</option>
+                <option>Paçoca</option>
+                <option>Suspiro</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="ff">Qual sua frase preferida?:</label><br>
+            <textarea name="ff" id="ff" cols="50" rows="5"></textarea>
+        </p>
+
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
