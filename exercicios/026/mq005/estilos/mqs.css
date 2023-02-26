@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* estilo para outros dispositivos*/
+
+@media screen and (min-width: 768px){
+    #iconemenu {
+        display: none;
+    }
+
+    header > menu {
+        display: block;
+    }
+
+    header a {
+        border-radius: 5px;
+        display: inline-block;
+    }
+}
